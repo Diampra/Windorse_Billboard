@@ -1468,8 +1468,8 @@ textarea.input-field {
   opacity: 0;
 }
 
- .menu.active {
-  top: 80px;
+.menu.active {
+  top: 60px;
   visibility: visible;
   opacity: 1;
 }
