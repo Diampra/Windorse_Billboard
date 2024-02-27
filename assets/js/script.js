@@ -79,26 +79,6 @@ window.addEventListener('click', function(event) {
 });
 
 
-// Get the Map element
-// var btn = document.getElementById('disappearBtn1');
-
-// Add click event listener
-// btn.addEventListener('click', function() {
-  // Hide the frame by setting its display property to 'none'
-//   document.getElementById('frame').style.display = 'none';
-//   document.getElementById('background').style.display = 'block';
-// });
-
-// window.addEventListener("scroll", function () {
-//   if (window.scrollY > 800) {
-//     document.getElementById('frame').style.display = 'block';
-//     document.getElementById('background').style.display = 'none';
-//   } 
-  // else {
-  //   header.classList.remove("active");
-  //   backTopBtn.classList.remove("active");
-  // }
-// });
 
 /*** Nav Bar active color change ***/
 document.addEventListener("DOMContentLoaded", function() {
@@ -117,21 +97,20 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-
-function menuToggle() {
-  const toggleMenu = document.querySelector(".menu");
+// **** My Profile *****
+function menuToggle(event) {
+  const toggleMenu = document.querySelector(".Menu");
   toggleMenu.classList.toggle("active");
 }
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("menu");
+    var dropdowns = document.getElementsByClassName("Menu");
     var j;
     for (j = 0; j < dropdowns.length; j++) {
       var openDropdown = dropdowns[j];
       if (openDropdown.classList.contains('active')) {
-        console.log('hi');
         openDropdown.classList.remove('active');
       }
     }

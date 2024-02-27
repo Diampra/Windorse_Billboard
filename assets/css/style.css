@@ -786,15 +786,15 @@ textarea.input-field {
   .map {
     padding-top: 80px;
   }
-  .menu::before {
+  .Menu::before {
     top: 140px;
     right: 190px;
   }
-  .menu.active
+  .Menu.active
   {
     top: 88px;
   }
-  .menu {
+  .Menu {
     right: 10px;
   }
 }
@@ -863,15 +863,15 @@ textarea.input-field {
     width: 320px;}
     /* padding: 2px;} */
 
-    .menu::before {
+    .Menu::before {
       top: 140px;
       right: 190px;
     }
-    .menu.active
+    .Menu.active
     {
       top: 88px;
     }
-    .menu {
+    .Menu {
       right: 25px;
     }
 }
@@ -959,16 +959,16 @@ textarea.input-field {
   .form-container {
     width: 350px;}
 
-    .menu::before {
+    .Menu::before {
     top: 140px;
     right: 190px;
   }
-  .menu.active
+  .Menu.active
   {
     top: 88px;
   }
 
-  .menu {
+  .Menu {
     right: 25px;
   }
 }
@@ -1180,25 +1180,25 @@ textarea.input-field {
     width: 384px;
     /* padding: 5px; */
   } 
-  .menu::before {
+  .Menu::before {
     top: -10px;
     right: 40px;
   }
-  .menu.active
+  .Menu.active
   {
     top: 88px;
   }
-  .menu {
+  .Menu {
     right: 25px;
   }
 }
 
 @media (min-width: 1000px) {
-  .menu::before {
+  .Menu::before {
     top: -10px;
     right: 20px;
   }
-  .menu.active
+  .Menu.active
   {
     top: 66px;
   }
@@ -1301,15 +1301,15 @@ textarea.input-field {
 
   .contact-card .card-icon { padding: 15px; }
 
-  .menu::before {
+  .Menu::before {
     top: -10px;
     right: 20px;
   }
-  .menu.active
+  .Menu.active
   {
     top: 66px;
   }
-  .menu {
+  .Menu {
     right: 10px;
   }
 }
@@ -1519,7 +1519,7 @@ textarea.input-field {
   object-fit: cover;
 } */
 
- .menu {
+ .Menu {
   position: absolute;
   top: 120px;
   /* right: -10px; */
@@ -1535,13 +1535,13 @@ textarea.input-field {
   border-color: var(--windorse-gray);
 }
 
-.menu.active {
+.Menu.active {
   /* top: 60px; */
   visibility: visible;
   opacity: 1;
 }
 
- .menu::before {
+ .Menu::before {
   content: "";
   position: absolute;
   /* top: -10px;
@@ -1554,7 +1554,7 @@ textarea.input-field {
   border-color: var(--windorse-gray);
 }
 
- .menu h3 {
+ .Menu h3 {
   width: 100%;
   text-align: center;
   font-size: 18px;
@@ -1564,31 +1564,31 @@ textarea.input-field {
   line-height: 1.5em;
 }
 
- .menu h3 span {
+ .Menu h3 span {
   font-size: 14px;
   color: #cecece;
   font-weight: 300;
 }
 
- .menu ul li {
+ .Menu ul li {
   list-style: none;
   padding: 16px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
 }
-.menu ul li img {
+.Menu ul li img {
   max-width: 20px;
   margin-right: 10px;
   opacity: 0.5;
   transition: 0.5s;
 }
 
-.menu ul li:hover img {
+.Menu ul li:hover img {
   opacity: 1;
 }
 
- .menu ul li a {
+ .Menu ul li a {
   display: inline-block;
   text-decoration: none;
   color: #555;
@@ -1596,7 +1596,7 @@ textarea.input-field {
   transition: 0.5s;
 }
 
- .menu ul li:hover a {
+ .Menu ul li:hover a {
   color: var(--black);
 }
 
