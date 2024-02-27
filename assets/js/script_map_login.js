@@ -73,7 +73,6 @@ window.onclick = function(event) {
     for (j = 0; j < dropdowns.length; j++) {
       var openDropdown = dropdowns[j];
       if (openDropdown.classList.contains('active')) {
-        console.log('hi');
         openDropdown.classList.remove('active');
       }
     }
