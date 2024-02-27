@@ -61,14 +61,14 @@ function openForm() {
   // ****** Profile ***** 
 
   function menuToggle() {
-    const toggleMenu = document.querySelector(".menu");
+    const toggleMenu = document.querySelector(".Menu");
     toggleMenu.classList.toggle("active");
   }
 
   // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
-    let dropdowns = document.getElementsByClassName("menu");
+    let dropdowns = document.getElementsByClassName("Menu");
     let j;
     for (j = 0; j < dropdowns.length; j++) {
       var openDropdown = dropdowns[j];
