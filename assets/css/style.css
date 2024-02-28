@@ -806,7 +806,7 @@ textarea.input-field {
   }
   .Menu.active
   {
-    top: 88px;
+    top: 88px; right: 9px;
   }
   .Menu {
     right: 10px;
@@ -883,7 +883,7 @@ textarea.input-field {
     }
     .Menu.active
     {
-      top: 88px;
+      top: 88px; right: 9px;
     }
     .Menu {
       right: 25px;
@@ -1200,7 +1200,7 @@ textarea.input-field {
   }
   .Menu.active
   {
-    top: 88px;
+    top: 88px; right: 9px;
   }
   .Menu {
     right: 25px;
