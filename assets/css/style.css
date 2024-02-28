@@ -1302,8 +1302,8 @@ textarea.input-field {
   .contact-card .card-icon { padding: 15px; }
 
   .Menu::before {
-    top: -10px;
-    right: 20px;
+    top: -11px;
+    right: 21px;
   }
   .Menu.active
   {
@@ -1533,13 +1533,14 @@ textarea.input-field {
   visibility: hidden;
   opacity: 0;
   border-style: solid;
-  border-color: var(--windorse-gray);
+  border-color: rgb(208, 204, 204) ;
 }
 
 .Menu.active {
   /* top: 60px; */
   visibility: visible;
   opacity: 1;
+  z-index: 3;
 }
 
  .Menu::before {
@@ -1552,7 +1553,8 @@ textarea.input-field {
   background: var(--windorse-gray);
   transform: rotate(45deg);
   border-style: solid;
-  border-color: var(--windorse-gray);
+  border-color:  rgb(208, 204, 204) var(--windorse-gray) var(--windorse-gray)  rgb(208, 204, 204) ;
+  z-index: 1;
 }
 
  .Menu h3 {
