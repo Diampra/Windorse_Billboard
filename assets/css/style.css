@@ -1537,7 +1537,7 @@ textarea.input-field {
  .Menu {
   position: absolute;
   top: 120px;
-  /* right: -10px; */
+  right: -10px;
   padding: 10px 20px;
   background: white;
   width: 200px;
