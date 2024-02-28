@@ -1546,8 +1546,8 @@ textarea.input-field {
   transition: 0.5s;
   visibility: hidden;
   opacity: 0;
-  /* border-style: solid; */
-  /* border-color: rgb(208, 204, 204) ; */
+  border-style: solid;
+  border-color: rgb(208, 204, 204) ;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
